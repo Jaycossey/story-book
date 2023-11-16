@@ -1,0 +1,14 @@
+:root {
+    --bg-color-1: pink;
+    --page-color: #FFEFD8;
+}
+
+body {
+    background-color: var(--bg-color-1);
+}
+
+#book-container {
+    background-color: var(--page-color);
+    height: 400px;
+    width: 500px;
+}
