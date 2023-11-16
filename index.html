@@ -12,15 +12,46 @@
 </head>
 <body>
     <!-- Header / Navbar -->
-    <header id="nav-container"></header>
+    <header id="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Story Time</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#description">Once Upon a Time...</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book-list">Stories</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Stories" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
+        </nav>
+    </header>
 
     <!-- Main Section -->
     <main>
         <!-- Description -->
-        <section id="description"></section>
+        <section id="description">
+            <h3>This is Story Time by Khaia</h3>
+            <p>Once Upon a time, there was a child, this child had a dream to be an author, her stories her pride, her imagination... wild. Her strength and will, unstoppable. Her ambition, never-ending.</p>
+            <p>Use the search bar to find her stories, poems and tales of wonder.</p>
+        </section>
 
         <!-- Default "Book" -->
-        <section id="book-container"></section>
+        <section id="book-container">
+            <div id="book-cover">
+                <div class="page-left"></div>
+                <div class="page-right"></div>
+            </div>
+        </section>
     </main>
 
     <!-- Boostrap Scripts -->
