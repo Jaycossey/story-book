@@ -7,7 +7,7 @@ console.log(PAGE_RIGHT);
 const DEFAULT_STORY = {
     title: "'The Beginning'",
     author: "Ian Scott",
-    type: "haiku",
+    type: "Haiku",
     content: "Love never-ending,\nOne's and zero's create all,\nA gift for my world."
 }
 // NAVBAR FUNCTION DECLARATIONS --------------------------------------
