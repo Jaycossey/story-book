@@ -12,7 +12,14 @@
 body {
     background-color: var(--bg-color-1);
 }
+
+
 /* NAVBAR STYLES -------------------------------------------------------- */
+header {
+    position: fixed;
+    width: 100vw;
+}
+
 
 /* DESCRIPTION STYLES --------------------------------------------------- */
 
@@ -21,6 +28,7 @@ body {
     padding: 10px;
     width: 70vw;
     margin: auto;
+    padding-top: 80px;
     font-family: var(--font-main);
 }
 
@@ -71,4 +79,11 @@ body {
     background-image: var(--right-grad);
     border-radius: 1px 5px 5px 1px;
     border-right: 4px double #C3BAAE;
+}
+
+
+/* ACCORDION STYLES ----------------------------------------------------- */
+
+#listAccordion {
+    padding: 40px;
 }
