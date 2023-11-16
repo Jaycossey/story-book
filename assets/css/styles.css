@@ -1,14 +1,64 @@
+/* GLOBALS --------------------------------------------------------------- */
+
 :root {
     --bg-color-1: pink;
     --page-color: #FFEFD8;
+    --left-grad: linear-gradient(90deg, #F7E8D4 60%, #CBBBA3 80%, #F7E8D4 90%);
+    --right-grad: linear-gradient(90deg, #F7E8D4 10%, #CBBBA3 20%, #F7E8D4 40%);
 }
 
 body {
     background-color: var(--bg-color-1);
 }
+/* NAVBAR STYLES -------------------------------------------------------- */
 
-#book-container {
+/* DESCRIPTION STYLES --------------------------------------------------- */
+
+#description {
+    text-align: center;
+    padding: 10px;
+    width: 90vw;
+    margin: auto;
+}
+
+
+/* BOOK STYLES --------------------------------------------------------- */
+
+#book-cover {
+    margin: auto;
+    margin-top: 20px;
+    border: 10px outset brown;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
     background-color: var(--page-color);
-    height: 400px;
-    width: 500px;
+    height: 60vh;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "left right";
+    padding: 10px;
+}
+
+.page-left,
+.page-right {
+    background-color: white;
+    border: 2px solid #C3BAAE;
+    width: 100%;
+    height: 100%;
+}
+
+.page-left {
+    grid-area: left;
+    background-image: var(--left-grad);
+    border-radius: 5px 1px 1px 5px;
+    border-left: 4px double #C3BAAE;
+}
+
+.page-right {
+    grid-area: right;
+    background-image: var(--right-grad);
+    border-radius: 1px 5px 5px 1px;
+    border-right: 4px double #C3BAAE;
 }
