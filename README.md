@@ -4,6 +4,8 @@
 
 This project was built to display short stories written by my daughter, who wanted the world to read her tales. The site has a search based navbar, with different catagories to filter the stories displayed, a main section with a brief description of current and upcoming stories, and a "book" section which will display a default story and any filtered choices. The site also has a timer to support and encourage longer periods of reading. 
 
+![Screenshot of landing page in app](./assets/images/app-screengrab.PNG)
+
 ## Front End
 
 - HTML
@@ -16,12 +18,6 @@ This project was built to display short stories written by my daughter, who want
 
 ## Roadmap
 
-- Planning
-- Template files
-- README
-- Navbar
-- Description section
-- Styles for story container
 - JS functions to handle searches
 - JS functions to display stories
 - JS functions to record time spent learning
